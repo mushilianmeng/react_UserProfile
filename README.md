@@ -20,7 +20,14 @@
 
 - https://bbqawdygta4nq4rd2a6lfayf6jecazfbfzeum5kmq2e.did.abtnet.io
 
-
+#作品说明
+- 由于时间有限，命名和工程化没有太过在意，个人对于设计模式，抽象等是预估产品复杂性后取舍开发效率和可读性做设计，毕竟过于抽象和封装会导致代码可读性变差。
+- 另本人面试的为服务器运维工程师，做前端代码的coding test 本人有疑惑，是工作内容需要么？
+- 本代码已经过本人实际测试更换服务器后git clone 下来运行正常，如遇到问题请联系我，邮件：tingyuxinsheng@gmail.com
+- 代码中的边界检测和数据校验只做了前端部分，xss，sql注入等同样由于时间成本关系未细化。
+- arcblock 项目在国内服务器部署无法使用，浪费不少时间，但是没有明显报错只能通过系统信息凭借经验排除，建议增加报错屏显。
+- 若无必要误增实体，软件有生命周期，没必要一开始就按大项目开发，会导致项目成功率降低，故此简单需求没有用太多的大项目设计方案。
+  
 # Getting Started with Create Blocklet
 
 This project was bootstrapped with [Create Blocklet](https://github.com/blocklet/create-blocklet).
