@@ -1,5 +1,5 @@
 #使用方法
-1、安装 arcblock: https://www.arcblock.io/docs/blocklet-developer/zh/setup-nodejs
+1、安装 arcblock: https://www.arcblock.io/docs/blocklet-developer/zh/setup-nodejs.
 注意nginx 安装方法：
 文档没有写明需要依赖nginx 的 具体模块，导致apt 安装 的nginx 即使是文档要求的1.18.0 版本但是没有这个模块，只好删除重新编译。
 wget https://nginx.org/download/nginx-1.26.2.tar.gz
