@@ -1,3 +1,26 @@
+#使用方法
+1、安装 arcblock: https://www.arcblock.io/docs/blocklet-developer/zh/setup-nodejs
+注意nginx 安装方法：
+文档没有写明需要依赖nginx 的 具体模块，导致apt 安装 的nginx 即使是文档要求的1.18.0 版本但是没有这个模块，只好删除重新编译。
+wget https://nginx.org/download/nginx-1.26.2.tar.gz
+tar -xvf nginx-1.26.2.tar.gz
+cd nginx-1.26.2
+./configure --with-stream --with-stream_ssl_module --with-stream_ssl_preread_module --with-http_ssl_module --with-http_realip_module
+make -j 1  #几核cpu就写几
+make install
+cd /usr/sbin
+ln -s /usr/local/nginx/sbin/nginx nginx
+2、安装好 arcblock 后
+git clone https://github.com/mushilianmeng/react_UserProfile
+cd react_UserProfile/
+npm i
+blocklet dev
+访问类似的url即可：
+ℹ You can access with the following URL
+
+- https://bbqawdygta4nq4rd2a6lfayf6jecazfbfzeum5kmq2e.did.abtnet.io
+
+
 # Getting Started with Create Blocklet
 
 This project was bootstrapped with [Create Blocklet](https://github.com/blocklet/create-blocklet).
